@@ -15,6 +15,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+main {
+  padding: 4.6rem;
+}
+
 .Header {
   display: flex;
   align-items: center;
@@ -23,4 +27,47 @@
   font-size: 24px;
   color: white;
   background-color: #f55a5a;
+}
+
+.Entry {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Entry span {
+  display: flex;
+  gap: 16px;
+}
+
+img {
+  width: 250px;
+  height: 340px;
+  margin: 10px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.marker {
+  color: #f55a5a;
+  margin-right: 0.2rem;
+}
+
+.location {
+  display: flex;
+  text-transform: uppercase;
+  letter-spacing: 0.17rem;
+}
+
+.view-map {
+  color: #918e9b;
+}
+
+.title {
+  font-size: 2.4rem;
+}
+
+.date {
+  font-weight: bold;
 }
